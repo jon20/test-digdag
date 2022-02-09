@@ -1,0 +1,10 @@
++load_environment:
+  if>: true
+  _do:
+    +do_statement:
+      py>: sample.save
+
++test_task:
+  _export:
+    do_something: ${test_env_store}
+  py>: sample.test_task
