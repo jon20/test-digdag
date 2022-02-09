@@ -6,5 +6,5 @@
 
 +test_task:
   _export:
-    do_something: ${test_env_store}
+    test_env: ${test_env_store}
   py>: sample.test_task
